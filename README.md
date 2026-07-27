@@ -1,11 +1,12 @@
 # Bitwarden Launcher
 
-[![Bitwarden](https://img.shields.io/badge/Bitwarden-2026.5.0-blue.svg)](https://github.com/bitwarden/clients/releases/tag/desktop-v2026.5.0)
-[![Bitwarden](https://img.shields.io/badge/Bitwarden-2026.6.0-blue.svg)](https://github.com/bitwarden/clients/releases/tag/desktop-v2026.6.0)
+[![Bitwarden 2026.5.0](https://img.shields.io/badge/Bitwarden-2026.5.0-blue.svg)](https://github.com/bitwarden/clients/releases/tag/desktop-v2026.5.0)
+[![Bitwarden 2026.6.0](https://img.shields.io/badge/Bitwarden-2026.6.0-blue.svg)](https://github.com/bitwarden/clients/releases/tag/desktop-v2026.6.0)
+[![Bitwarden 2026.7.0](https://img.shields.io/badge/Bitwarden-2026.7.0-blue.svg)](https://github.com/bitwarden/clients/releases/tag/desktop-v2026.7.0)
 
 Bitwarden Launcher (Autostart Minimized) for macOS.
 
->Starting with [Bitwarden 2026.5.0](https://github.com/bitwarden/clients/releases/tag/desktop-v2026.5.0) up to [Bitwarden 2026.6.0](https://github.com/bitwarden/clients/releases/tag/desktop-v2026.6.0), the minimized autostart feature has been removed from the client UI. This feature is now supposed to work automatically, but it does not on macOS. This launcher opens Bitwarden with the required `--autostart` option, ensuring that Bitwarden starts minimized again.
+>Starting with [Bitwarden 2026.5.0](https://github.com/bitwarden/clients/releases/tag/desktop-v2026.5.0) up to [Bitwarden 2026.7.0](https://github.com/bitwarden/clients/releases/tag/desktop-v2026.6.0), the minimized autostart feature has been removed from the client UI. This feature is now supposed to work automatically, but it does not on macOS. This launcher opens Bitwarden with the required `--autostart` option, ensuring that Bitwarden starts minimized again.
 
 ## Setup
 1. Download and Mount [Bitwarden Launcher.dmg](https://github.com/Poket-Jony/bitwarden-launcher/raw/refs/heads/main/Bitwarden%20Launcher.dmg?download=)
@@ -26,3 +27,5 @@ open -a /Applications/Bitwarden.app --args --autostart
 - https://github.com/bitwarden/clients/issues/21104
 - https://github.com/bitwarden/clients/issues/21275
 - https://github.com/bitwarden/clients/issues/21521
+- https://github.com/bitwarden/clients/issues/21540
+- https://github.com/bitwarden/clients/issues/21546
